@@ -1,4 +1,4 @@
-package com.universityexplorer
+package com.yourcompany.universityexplorer
 
 import android.app.Application
 import android.content.res.Configuration
