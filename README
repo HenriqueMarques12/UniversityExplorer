@@ -1,0 +1,71 @@
+University Explorer
+
+Um aplicativo de exploração de universidades globais com recursos de busca, filtros por país e gerenciamento de favoritos.University Explorer
+
+Um aplicativo de exploração de universidades globais com recursos de busca, filtros por país e gerenciamento de favoritos.
+
+Instalação Pré-requisitos Node.js (14+) npm ou yarn Expo CLI (opcional) Xcode (para iOS) Android Studio (para Android) Configuração
+
+Clone o repositório:
+
+git clone https://github.com/HenriqueMarques12/UniversityExplorer
+
+cd UniversityExplorer
+
+Instale as dependências:
+
+npm install
+
+Executando o Projeto Com Expo
+
+Inicie o servidor Expo:
+
+npm start
+
+Execute em dispositivos:
+
+iOS: Pressione 'i' Android: Pressione 'a' Físico: Escaneie o QR code com Expo Go Com React Native CLI
+
+Para iOS:
+
+npx react-native run-ios
+
+Para Android:
+
+npx react-native run-android
+
+Recursos Principais
+
+🔍 Pesquisa de universidades por nome
+
+🌍 Filtro por país com bandeiras
+
+⭐ Salve universidades favoritas
+
+📚 Visualize detalhes completos com domínios e websites
+
+Arquitetura
+
+Zustand para gerenciamento de estado
+
+React Navigation para navegação entre telas
+
+Componentes Modulares para UI reutilizável
+
+Custom Hooks para lógica de negócios
+
+Solução de Problemas
+
+Limpar cache do Metro:
+
+npm start -- --reset-cache
+
+Atualizar pods para iOS:
+
+cd ios && pod install && cd ..
+
+Limpar build para Android:
+
+cd android && ./gradlew clean && cd ..
+
+Projeto desenvolvido com React Native e Expo por Henrique Marques.
