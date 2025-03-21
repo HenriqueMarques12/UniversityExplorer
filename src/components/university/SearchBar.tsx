@@ -7,9 +7,10 @@ interface SearchBarProps {
   value: string;
   onChangeText: (text: string) => void;
   onClear: () => void;
+  testID?: string;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ value, onChangeText, onClear }) => {
+const SearchBar: React.FC<SearchBarProps> = ({ value, onChangeText, onClear, testID }) => {
   return (
     <>
       <Text style={styles.searchLabel}>Pesquisar Universidades</Text>

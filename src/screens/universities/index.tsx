@@ -1,4 +1,3 @@
-// src/screens/UniversityList/index.tsx
 import React, { useState, useCallback, useRef } from 'react';
 import { 
   View, 
